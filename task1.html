@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+<title>Document</title>
+<style>
+*{
+margin: 0 ;
+padding: 0;
+  
+}
+.container{
+background-color: antiquewhite;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+background: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
+overflow: hidden;
+
+}
+.box1{
+
+height: 90%;
+width: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+color: #ffffff;
+}
+.box1 > img{
+height: 70px;
+padding: 10%;
+
+}
+.box1 p {
+margin-bottom: 30vh;
+padding: 30px;
+}
+.box1 button {
+background-color: #ffffff;
+padding: 10px;
+width: 150px;
+border-radius: 20px;
+outline: none;
+}
+.box2
+{
+background-color:whitesmoke;
+height: 90%;
+width: 70%;
+border-top-left-radius: 15%;
+border-bottom-left-radius: 15%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.box2 .employee{
+color: #ffffff;
+background-color: #003298;
+border: 1px solid;
+width: 15rem;
+height: 2rem;
+border-radius: 20px;
+padding: 2px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+position: relative;
+left: 36%;
+cursor: pointer;
+}
+.box2 .employee .hirer-button{
+background-color: #ffffff;
+color: black;
+width: 50%;
+height: 80%;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+.box2 .hirer{
+height: 60%;
+
+width: 60%;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+.box2 .hirer input{
+margin: 5%;
+height: 30px;
+width: 15rem;
+}
+.box2 button {
+background-color: #003298;
+color: #ffffff;
+border: none;
+outline: none;
+padding: 10px;
+width: 150px;
+border-radius: 20px;
+font-size: 1rem;
+position: relative;
+left: 40%;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box1">
+
+<i class="fa fa-rocket" aria-hidden="true"></i>
+
+
+<h1>welcome</h1>
+<p>
+You are 30 seconds away from earning your own money!
+</p>
+<button>Login</button>
+</div>
+<div class="box2">
+<div class="employee">
+<span>Employee</span>
+<div class="hirer-button"> <a href="employee.html">Hirer</a></div>
+</div>
+<div class="hirer">
+<h2 style="text-align: center; font-size: 2rem;">Apply as a Hirer</h2>
+<input type="text" placeholder="First Name*">
+<input type="password" placeholder="Password*">
+<input type="text" placeholder="Last Name*">
+<input type="password" placeholder="Confirm Password*">
+<input type="email" placeholder="Email*">
+
+
+<label for="sequrity Question"></label> 
+<select name="sequrity Question" id="sequrity Question">
+    <option value="sequrity">Please select your sequrity Question</option>
+    <option value="Pet Name">What is Your Pet Name?</option>
+    <option value="fathers name">What is your Father's Name?</option>
+</select>  
+<input type="number" placeholder="Phone*">
+<input type="text" placeholder="Answer*">
+
+
+
+
+
+
+
+</div>
+<button>Register</button>
+</div>
+
+</div>
+
+
+</body>
+</html>
